@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Web Form</title>
+                <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    </head>
+  
+    <body>
+          <script>
+        <div id="container">
+            <header><nav>
+                    <a href="index.html">Home</a>
+                    
+                    </nav>
+                    <h1> Please Enter the following Personal Information </h1>
+                
+            </header>
+            <!-- Place all your HTML code within this div container -->
+            <div id="content">
+                <p><img src="img/Earth%20Fitness.jpg" alt="LIT" style="float: left;width:150px;height:150px;"></p>
+                <h1> Continuos Improvment Program </h1>
+                
+     function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+                    
+            </div>
+            
+            <footer>
+            <p> &copy; 2016 Ash
+             <a href="http://www.EarthFitness.com">visit Our Website </a> 
+            </p>
+            </footer>
+        </div>
+    </script>
+
+    </body>
+</html>

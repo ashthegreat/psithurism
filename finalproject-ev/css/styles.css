@@ -1,0 +1,261 @@
+0/* 
+Please do not modify the following style rule 
+*/
+#container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding:  20px;
+  box-sizing: border-box; 
+  background-color: whitesmoke;
+  min-height:200px; 
+    
+
+
+}
+
+/* 
+All style rules after this point can be changed as required
+*/
+
+.modified
+{
+ text-align: left;   
+    
+}
+
+
+
+body, html, main {
+	/* important */
+	height: 100%;
+}
+ 
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/Model3.jpg");
+}
+.cd-scrolling-bg.cd-color-1 {
+  background-color: grey;
+  color: whitesmoke;
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/Model2.jpg");
+}
+
+ 
+.cd-scrolling-bg {
+	min-height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+
+
+
+
+article h3
+{
+    color:red; 
+    text-align: left;
+}
+
+
+article p
+{ line-height: 30px;
+    
+}
+
+#holder ul li a#onlink
+{
+    background: silver;
+    color: red;
+    border-bottom: 1px red;
+}
+#holder ul li a#onlink:hover
+{
+    background: silver;
+    color: red;
+    text-shadow: 1px 1px 1px silver;
+}
+/* Style the tab content */
+#navbar
+{  
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    width: 660px;
+}
+#navbar #holder
+{
+    height: 64px;
+    border-bottom: 1px silver;
+    width: 670px;
+    padding-left:300px;
+}
+#navbar #holder ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+#navbar #holder ul li a
+{
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    font-family: sans-serif;
+    color: red;
+    border: 1px solid silver;
+    border-bottom: none;
+    padding: 20px
+    width: 75px;
+    text-align:left;
+    display: block;
+    background-color: whitesmoke;
+    
+}
+#navbar #holder ul li a: hover
+{
+   background color: red;
+    text-shadow: 1px 1px 1px red;
+    
+}
+
+
+fieldset#gender input
+    { color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    float: left;
+    width: 20em;
+        
+     }
+fieldset#gender Label 
+   {
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 150%;
+    float: none
+}
+
+Label 
+   {
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    float: none
+   }
+
+Legend {
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 190%;
+   }
+Fieldset {
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 70%;
+}
+
+h1 {
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 300%;
+    text-align: center;
+  
+   }
+
+h3{
+   color: darkgray;
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: left;
+    padding-left: 30px;
+  }
+h5 {
+    color: darkgray;
+    font-family: sans-serif;
+    font-size: 100%;
+    text-align: center
+  
+   }
+
+
+/* You could use :after - it doesn't really matter */
+legend
+{
+    style="float:right";
+        
+}
+
+
+
+
+p 
+
+
+{
+    color: black;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2;
+    margin-right: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+   
+}
+
+
+
+nav{
+    color: grey;
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 100%; 
+    text-align: left;
+    
+    
+    }
+
+
+header {
+    background-color: grey;
+    text-align: center;
+    
+    
+   
+}
+nav {
+    background-color: silver;
+  
+}
+footer {
+    background-color: silver;
+}
+
+body {
+    background-color: lightgray;
+}
+   
+
