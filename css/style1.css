@@ -60,22 +60,20 @@
 headerh
 {
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-weight: 595;
     font-size: 80px;
     text-transform: uppercase;
     display: inline-block;
-    //line-height: 72px;
+       //line-height: 72px;
      margin-top: -1500px;
     // padding-top: -100px;
 
 }
 
-.unique
+ .unique 
 {
-    margin-top: 700px;
     
-    text-align: center;
-    
+   margin-top: 20px;
 }
 
 .
@@ -86,7 +84,7 @@ headerh
      height: 200px;
     padding-top: -200px;
 }
-nav p img 
+.adjustingceltic 
 {
     margin-top: -600px;
     
@@ -107,8 +105,37 @@ nav p img
 
 .headerobjectswrapper
 {
-    
+   height: 400px;
 }
+
+.headerobjectswrapper2
+{
+    height:550px; 
+    text-align: center;
+
+}
+
+.headerobjectswrapper3
+{
+    height:900px; 
+    text-align: center;
+
+}
+
+.headerobjectswrapper4
+{
+    height:560px; 
+    text-align: center;
+
+}
+
+.headerobjectswrapper5
+{
+    height:580px; 
+    text-align: center;
+
+}
+
 
 #headerfix
 {
@@ -130,11 +157,22 @@ nav p img
     float: right;
     margin-right: 50px;
     margin-left: 1000px;
-    margin-bottom: 270px;
+    margin-bottom: 170px;
     margin-top: 20px;
   
 }
 
+#booking
+{
+    width: 330px;
+    height: 350px;
+    float: left;
+    margin-right: -400px;
+    margin-left: 0px;
+    margin-bottom: 170px;
+    margin-top: -140px;
+  
+}
 /*search bar*/
 .input[type=text] {
     width: 130px;
@@ -179,7 +217,7 @@ input[type=text]:focus
 
 .psithurism
 {
-    margin-top: 660px;
+    margin-top: 670px;
 }
 .adjustingsearchhomepage
 { 
@@ -613,7 +651,7 @@ body{
 header
 {
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-weight: 590;
     font-size: 80px;
     text-transform: uppercase;
     display: inline-block;
